@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    color: #1e3d58;
+    font-family: "Zalando Sans Expanded", sans-serif,  "M PLUS Rounded 1c";
+    font-optical-sizing: auto;
+    background-color: #d7e3fc;
+    margin: 0
+}
+
+#main-img {
+    background-image: url("../images/lucknow.jpg");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+.header h1, .header h3 {
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    margin: 10px;
+    padding: 32px;
+}
+img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 5px solid #abc4ff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+    padding: 32px;
+    background-color: #ccdbfd;
+}
+
+.footer > .card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #d7e3fc;
+    color: #475492;
+    border-bottom: 6px solid #c1d3fe;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    border-radius: 6px;
+}
+
+.card-content {
+    margin: 0;
+    padding: 0 20px;
+    font-size: smaller;
+    /* text-align: left; */
+}
